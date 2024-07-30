@@ -197,7 +197,7 @@ public:
 				if(wait<=0.0f)
 				{ 
 					bool deadlockCheck = false;
-					for(int i=0;i<3;i++)
+					for(int i=0;i<2;i++)
 						if(states[affectedCarlaneIds[i]] == YELLOW)
 							deadlockCheck = true;
 					if(deadlockCheck)
